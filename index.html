@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Quiz app</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!--top section-->
+    <div class="intro py-3 bg-white text-center">
+      <div class="containter">
+        <h2 class="text-primary display-3 my-4">Smart Quiz</h2>
+      </div>
+    </div>
+
+    <!--quiz section-->
+<div class="row">
+    
+    <div class="col-md-3">
+        <h3 class="display-4">Questions</h3>
+
+        <button id="quizQuestion1" type="button" value="1" class="btn quizProblem">1
+        </button>
+        <button id="quizQuestion2" type="button" value="2" class="btn quizProblem">2
+        </button>
+        <button id="quizQuestion3" type="button" value="3" class="btn quizProblem">3
+        </button>
+        <button id="quizQuestion4" type="button" value="4" class="btn quizProblem">4
+        </button>
+        <button id="quizQuestion5" type="button" value="5" class="btn quizProblem">5
+        </button>
+        <button id="quizQuestion6" type="button" value="6" class="btn quizProblem">6
+        </button>
+        <button id="quizQuestion7" type="button" value="7" class="btn quizProblem">7
+        </button>
+        <button id="quizQuestion8" type="button" value="8" class="btn quizProblem">8
+        </button>
+        <button id="quizQuestion9" type="button" value="9" class="btn quizProblem">9
+        </button>
+        <button id="quizQuestion10" type="button" value="10" class="btn quizProblem">10
+        </button>
+
+    </div>
+    <div class="quiz col-md-9 py-4 bg-primary">
+      <div class="container">
+        <h2 class="text-white">On with the question</h2>
+
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal" id="question">
+              What is the answer to this Question
+            </p>
+            <div class="form-check my-2 text-white-50 choice-container">
+              <p class="choice-prefix">A</p>
+              <p class="form-check-lebel choice-text"data-number="1">choice 1</p>
+            </div>
+            <div class="form-check my-2 text-white-50 choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="form-check-lebel choice-text"data-number="1">choice 2</p>
+              </div>
+              <div class="form-check my-2 text-white-50 choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="form-check-lebel choice-text"data-number="1">choice 3</p>
+              </div>
+              <div class="form-check my-2 text-white-50 choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="form-check-lebel choice-text"data-number="1">choice 4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="apps.js"></script>
+  </body>
+</html>
